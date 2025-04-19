@@ -55,8 +55,8 @@ button {
 .container {
     width: 100%;
     max-width: 320px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 
@@ -903,7 +903,7 @@ button {
 
     .team .container,
     .footer .container {
-        max-width: 582px;
+        max-width: 584px;
     }
 
     .burger-btn {
@@ -917,7 +917,7 @@ button {
     }
 
     .header-menu-list {
-        display: flex;
+        display: none;
     }
 
     .header-address-list {
@@ -963,7 +963,7 @@ button {
     }
 
     .features-item {
-        flex-basis: calc((100% - 48px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
 
     .features-subtitle {
@@ -1019,6 +1019,7 @@ button {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+        padding: 0 15px;
     }
 
     .team .container,
